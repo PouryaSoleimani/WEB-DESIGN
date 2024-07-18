@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>WEB DESIGN 2</title>
+    </head>
+    <body class="overflow-x-hidden">
+        <!-- ^ FULL PAGE CONTAINER -->
+        <section id="FULL_PAGE_CONTAINER" class="overflow-hidden w-screen">
+
+            <!--& HEADER -->
+            <div class="bg-black relative h-screen">
+                <video id="DESKTOP__BACKGROUND" src="./images/PARRALAX__VIDEO__PREVIEW3.mp4" autoplay loop muted class="w-screen invisible sm:visible absolute top-0 sm:h-auto overflow-hidden flex items-center justify-center"></video>
+                <div id="MOBILE__TITLE" class="w-screen flex items-start py-32 justify-center h-screen absolute top-0">
+                    <h1 class="sm:hidden text-3xl font-bold bg-zinc-100/10 px-6 py-6 rounded-xl text-yellow-400 z-[100]">طراحی سایت</h1>
+                </div>
+                <img id="MOBILE__BACKGROUND" src="./images/MOBILE__BACKGROUND.jpg" class="w-screen h-screen sm:invisible absolute top-0">
+                <img id="HEADER__BACKGROUND__LAYER__1" src="/images/HEADER__BACKGROUND__LAYER__1.png" class="w-screen absolute bottom-0 sm:-bottom-44">
+            </div>
+
+            <!-- & PLANS__SECTION -->
+            <div id="PLANS__CONTAINER" class="bg-[url('./images/PLANS__BACKGROUND.png')] relative h-[300vh] bg-cover w-screen bg-no-repeat bg-fixed flex flex-wrap flex-col items-center justify-start">
+                <h1 class="text-3xl font-bold text-white text-center w-screen py-8">برخی دسته بندی های سایت</h1>
+                <!--^ PLANS__BOXES__CONTAINER -->
+                <div id="PLANS__BOXES__CONTAINER" class="flex items-center justify-center gap-x-10 w-screen translate-y-20">
+                    <!--! BOXES -->
+                    <!-- <div id="PLAN__BOX__1" class="cursor-pointer bg-white/20 backdrop-blur-[3px] PLANBOX1 hover:scale-105 duration-300 w-[400px] h-inherit flex flex-col items-center justify-start px-4 pb-6">
+                        <h2 class="text-white text-2xl font-semibold text-center w-full py-6 tracking-tighter">پکیج تک صفحه ای</h2>
+                        <ul class="text-white px-16 pt-4 pb-6 space-y-4">
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                        </ul>
+                        <button class="shadow__btn">8,000,000 تومان</button>
+                    </div>
+
+                    <span id="PLAN__BOX__2" class="cursor-pointer bg-white/20 backdrop-blur-[3px] rounded-[50px] border-2 border-zinc-600 hover:border-[#FABB14] w-[400px] scale-105 hover:scale-110 duration-300 w-fit h-inherit flex flex-col items-center justify-start px-4 pb-10">
+                        <h2 class="text-white text-3xl font-semibold text-center w-full pt-8 pb-4 tracking-tighter">پکیج فروشگاهی</h2>
+                        <ul class="text-white px-16 pt-4 pb-6 space-y-4">
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                        </ul>
+                        <button class="shadow__btn my-10">8,000,000 تومان</button>
+                    </span>
+
+                    <span id="PLAN__BOX__3" class="cursor-pointer bg-white/20 backdrop-blur-[3px] rounded-[50px] border-2 border-zinc-600 hover:border-[#FABB14] w-[400px] hover:scale-105 duration-300 w-fit h-inherit flex flex-col items-center justify-start px-4 pb-6">
+                        <h2 class="text-white text-2xl font-semibold text-center w-full py-6 tracking-tighter">پکیج غیر فروشگاهی</h2>
+                        <ul class="text-white px-16 pt-4 pb-6 space-y-4">
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                            <li class="flex gap-x-2 items-center flex-row-reverse"><img src="./images/CHECK__ICON.png" class="w-4 h-4">شسیبشسیشسیسشی</li>
+                        </ul>
+                        <button class="shadow__btn">8,000,000 تومان</button>
+                    </span> -->
+                </div>
+                <div class="">
+                    <img src="./images/PLANS__BACKGROUND__OBJECT.png" class="">
+                    <img src="./images/PLANS__BACKGROUND__OBJECT__1.png" class="">
+                </div>
+            </div>
+            <!-- & TITLE -->
+            <!-- ^ SCRIPTS -->
+            <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+            <script src="./app.js"></script>
+        </section>
+
+    </body>
+</html>
